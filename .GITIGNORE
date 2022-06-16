@@ -1,0 +1,9 @@
+### Other Stuff ###
+# Ignore private files
+private/
+
+# Will store data for future use
+compatability.md
+
+# Ignore old code
+_old/

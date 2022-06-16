@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+#subBox, #channelBox, #subCount {
+    margin: auto;
+    width: 85%;
+    border-radius: 10px;
+}
+
+#subBox {
+    background-color: #222;
+}
+#channelBox {
+    background-color: #333;
+    text-align: center;
+}
+#subCount {
+    background-color: #111;
+}
+
+img {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+} img:hover {
+    transition-delay: 100ms;
+    transition-duration: 1s;
+    border-radius: 20%;
+}

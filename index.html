@@ -1,10 +1,330 @@
+<!-- Over 300 lines KEKW -->
+
 <!DOCTYPE html>
-<html>
+<html lang="en-GB">
     <head>
-        <title>GalvinPython's Page</title>
-        <link rel="stylesheet" href="/global.css">
+        <meta charset="utf-8">
+        
+        <!-- Meta tags -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Basic HTML crap -->
+        <title>JSALStats</title>
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="/css/global.css">
+        <link rel="stylesheet" href="/css/pages/home.css">
+
+        <!-- Import important Scripts -->
     </head>
-    <body>
-        <h1>Nothing interesting yet</h1>
+    <body dir="auto">
+
+        <!--
+            MOVE TO channel_data.json
+            Channel Name | Abbreviation | Channel ID
+            JackSucksAtStuff | JSAS | UCxLIJccyaRQDeyu6RzUsPuw
+            Jack Massey Welsh | JMW | UCyktGLVQchOpvKgL7GShDWA
+            JackSucksAtGeography | JSAG | UCd15dSPPT-EhTXekA7_UNAQ
+            turd boi420 | t420 | UCbu2qTa75eyjwCKOugX8F6A
+            JackSucksAtPopUpPirate | JSAPUP | UCpCJRHoggwXQhuFbW4gjM_w
+            JacksEpicYoutubeChannelFullOfFunTimesAndFunHiRickX | JackLongName | UCF9R3Ln-u52vUdSO-pFdETw
+            JACKSEPICYOUTUBECHANNELFULLOFFUNTIMESANDFUNHIRICKXHASNOTHINGONMEIAMTHESUPERIORCHANNELIHAVEMORECHARACTERSTHANALLOFJACKSYOUTUBECHANNELSCOMBINEDHAHAHAHAIHAVEMORECHARACTERSTHANJACKSUCKSATLIFEJACKSUCKSATSTUFFJACKMASSEYWELSHJACKSUCKSATGEOGRAPHYJACKSUCKSATCLIPSSAMSMELLSOFAPRICOTSJACKSUCKSATPOPUPPIRATEETCETCIMAGINETHISONAPLAYBUTTONJESUSCHRISTBTWPLEASESUBSCRIBETHANKYOUVERYMUCHHIRICKXxXxXX | JackLongerName | UChLNLQ6r-aGrIFWo_1A9tKQ
+            JackSucksAtClips | JSAC | UCUXNOmIdsoyd5fh5TZHHO5Q
+            SamSmellsOfApricots | SSOAS |
+            SamSmellsOfApricot | SSOA | UCgKbwxXkz95TYVcpvpkCjag
+            ejsafc | ejsafc |
+            JackMasseyWelsh | JMWOld | 
+        -->
+
+        <div id="noscript">
+            <noscript>⚠ JavaScript is disabled. Enable JavaScript to access full access to the site!</noscript>
+        </div>
+
+
+        <div id="navbar">
+            <abbr title="the navbar is under here, just not functional yet">Navbar under development</abbr>
+            <script src="/js/write_html/navbar.js"></script>
+        </div>
+
+        <div id="main">
+            <h1>JSALStats</h1>
+            <h3>Homepage</h3>
+            <div id="channels">
+                <h3>List of channels</h3>
+                <div id="listOfChannels">
+                    <!-- Start of table -->
+                    <table>
+                        <tr>
+                            <th>Profile Icon</th>
+                            <th><abbr title="Links open in a new tab for now">Channel</abbr></th>
+                            <th><abbr title="How active a channel is. Determined by WikiTubia">Status</abbr></th>
+                        </tr>
+                        <tr>
+                            <th><img type="image/webp" src="/imgs/profiles/JackSucksAtLife.webp" alt="JackSucksAtLife" width="200" height="200"></th>
+                            <th>
+                                <p>JackSucksAtLife</p>
+                                <button class="viewInfo" onclick="re_info_jsal()">Channel Information <i>(BETA)</i></button><br>
+                                <button class="viewSubCount cs" onclick="sc_jsal()">Subscriber Count <i>(ALPHA)</i></button><br>
+                                <button class="viewViewCount cs" onclick="" disabled>View Count <i>(COMING SOON)</i></button>
+                            </th>
+                            <th class="active"><abbr title="Uploads are done frequently on this channel">Active</abbr></th>
+                        </tr>
+                        <tr>
+                            <th><img type="image/webp" src="/imgs/profiles/JackSucksAtStuff.webp" alt="JackSucksAtStuff" width="200" height="200"></th>
+                            <th>
+                                <p>JackSucksAtStuff</p>
+                                <button class="viewInfo" onclick="" disabled>Channel Information</button><br>
+                                <button class="viewSubCount" onclick="" disabled>Subscriber Count</button><br>
+                                <button class="viewViewCount" onclick="" disabled>View Count</button>
+                            </th>
+                            <th class="active"><abbr title="Uploads are done frequently on this channel">Active</abbr></th>
+                        </tr>
+                        <tr>
+                            <th><img type="image/webp" src="/imgs/profiles/Jack_Massey_Welsh.webp" alt="Jack Massey Welsh" width="200" height="200"></th>
+                            <th>
+                                <p>Jack Massey Welsh</p>
+                                <button class="viewInfo" onclick="" disabled>Channel Information</button><br>
+                                <button class="viewSubCount" onclick="" disabled>Subscriber Count</button><br>
+                                <button class="viewViewCount" onclick="" disabled>View Count</button>
+                            </th>
+                            <th class="active"><abbr title="Uploads are done frequently on this channel">Active</abbr></th>
+                        </tr>
+                        <tr>
+                            <th><img type="image/webp" src="/imgs/profiles/JackSucksAtGeography.webp" alt="JackSucksAtGeography" width="200" height="200"></th>
+                            <th>
+                                <p>JackSucksAtGeography</p>
+                                <button class="viewInfo" onclick="" disabled>Channel Information</button><br>
+                                <button class="viewSubCount" onclick="" disabled>Subscriber Count</button><br>
+                                <button class="viewViewCount" onclick="" disabled>View Count</button>
+                            </th>
+                            <th class="active"><abbr title="Uploads are done frequently on this channel">Active</abbr></th>
+                        </tr>
+                        <tr>
+                            <th><img src="/imgs/profiles/Turd_boi420.webp" alt="turd boi420" width="200" height="200"></th>
+                            <th>
+                                <p>turd boi420</p>
+                                <button class="viewInfo" onclick="" disabled>Channel Information</button><br>
+                                <button class="viewSubCount" onclick="" disabled>Subscriber Count</button><br>
+                                <button class="viewViewCount" onclick="" disabled>View Count</button>
+                            </th>
+                            <th class="semi-active"><abbr title="Uploads are done from time to time, but not frequently">Semi-Active</abbr></th>
+                        </tr>
+                        <tr>
+                            <th><img src="/imgs/profiles/JackSucksAtPopUpPirate.webp" alt="JackSucksAtPopUpPirate" width="200" height="200"></th>
+                            <th>
+                                <p>JackSucksAtPopUpPirate</p>
+                                <button class="viewInfo" onclick="" disabled>Channel Information</button><br>
+                                <button class="viewSubCount" onclick="" disabled>Subscriber Count</button><br>
+                                <button class="viewViewCount" onclick="" disabled>View Count</button>
+                            </th>
+                            <th class="inactive"><abbr title="Uploads are no longer happening on this channel">Inactive</abbr></th>
+                        </tr>
+                        <tr>
+                            <th><img src="/imgs/profiles/JacksEpicYoutubeChannelFullOfFunTimesAndFunHiRickX.webp" alt="JacksEpicYoutubeChannelFullOfFunTimesAndFunHiRickX" width="200" height="200"></th>
+                            <th>
+                                <p>JacksEpicYoutubeChannelFullOfFunTimesAndFunHiRickX</p>
+                                <button class="viewInfo" onclick="" disabled>Channel Information</button><br>
+                                <button class="viewSubCount" onclick="" disabled>Subscriber Count</button><br>
+                                <button class="viewViewCount" onclick="" disabled>View Count</button>
+                            </th>
+                            <th class="semi-active"><abbr title="Uploads are done from time to time, but not frequently">Semi-Active</abbr></th>
+                        </tr>
+                        <tr>
+                            <th><img src="/imgs/profiles/JackLongName.webp" alt="JACKSEPICYOUTUBECHANNELFULLOFFUNTIMESANDFUNHIRICKXHASNOTHINGONMEIAMTHESUPERIORCHANNELIHAVEMORECHARACTERSTHANALLOFJACKSYOUTUBECHANNELSCOMBINEDHAHAHAHAIHAVEMORECHARACTERSTHANJACKSUCKSATLIFEJACKSUCKSATSTUFFJACKMASSEYWELSHJACKSUCKSATGEOGRAPHYJACKSUCKSATCLIPSSAMSMELLSOFAPRICOTSJACKSUCKSATPOPUPPIRATEETCETCIMAGINETHISONAPLAYBUTTONJESUSCHRISTBTWPLEASESUBSCRIBETHANKYOUVERYMUCHHIRICKXxXxXX" width="200" height="200"></th>
+                            <th onclick="jackLongName()">
+                                <abbr title="JACKSEPICYOUTUBECHANNELFULLOFFUNTIMESANDFUNHIRICKXHASNOTHINGONMEIAMTHESUPERIORCHANNELIHAVEMORECHARACTERSTHANALLOFJACKSYOUTUBECHANNELSCOMBINEDHAHAHAHAIHAVEMORECHARACTERSTHANJACKSUCKSATLIFEJACKSUCKSATSTUFFJACKMASSEYWELSHJACKSUCKSATGEOGRAPHYJACKSUCKSATCLIPSSAMSMELLSOFAPRICOTSJACKSUCKSATPOPUPPIRATEETCETCIMAGINETHISONAPLAYBUTTONJESUSCHRISTBTWPLEASESUBSCRIBETHANKYOUVERYMUCHHIRICKXxXxXX"><i>*Hover*</i><br></abbr>
+                                <button class="viewInfo" onclick="" disabled>Channel Information</button><br>
+                                <button class="viewSubCount" onclick="" disabled>Subscriber Count</button><br>
+                                <button class="viewViewCount" onclick="" disabled>View Count</button>
+                            </th>
+                            <th class="active"><abbr title="Uploads are done frequently on this channel">Active</abbr></th>
+                        </tr>
+                        <tr>
+                            <th><img type="image/webp" src="/imgs/profiles/JackSucksAtClips.webp" alt="JackSucksAtClips" width="200" height="200"></th>
+                            <th>
+                                <p>JackSucksAtClips</p>
+                                <button class="viewInfo" onclick="" disabled>Channel Information</button><br>
+                                <button class="viewSubCount" onclick="" disabled>Subscriber Count</button><br>
+                                <button class="viewViewCount" onclick="" disabled>View Count</button>
+                            </th>
+                            <th class="active"><abbr title="Uploads are done frequently on this channel">Active</abbr></th>
+                        </tr>
+                        <tr>
+                            <th><img type="image/webp" src="/imgs/profiles/NoContextJackSucksAtLife.webp" alt="No Context JackSucksAtLife" width="200" height="200"></th>
+                            <th>
+                                <p>No Context JackSucksAtLife</p>
+                                <button class="viewInfo" onclick="" disabled>Channel Information</button><br>
+                                <button class="viewSubCount" onclick="" disabled>Subscriber Count</button><br>
+                                <button class="viewViewCount" onclick="" disabled>View Count</button>
+                            </th>
+                            <th class="active"><abbr title="Uploads are done frequently on this channel">Active</abbr></th>
+                        </tr>
+                        <tr>
+                            <th><img type="image/webp" src="/imgs/profiles/JSAE.webp" alt="JackSucksAtEspañol" width="200" height="200"></th>
+                            <th>
+                                <p>JackSucksAtEspañol</p>
+                                <button class="viewInfo" onclick="" disabled>Channel Information</button><br>
+                                <button class="viewSubCount" onclick="" disabled>Subscriber Count</button><br>
+                                <button class="viewViewCount" onclick="" disabled>View Count</button>
+                            </th>
+                            <th class="active"><abbr title="Uploads are done frequently on this channel">Active</abbr></th>
+                        </tr>
+                        <tr>
+                            <th><img src="/imgs/profiles/Samsmellsofapricots.webp" alt="SamSmellsOfApricots" width="200" height="200"></th>
+                            <th>
+                                <p>SamSmellsOfApricots</p>
+                                <button class="viewInfo" onclick="" disabled>Channel Information</button><br>
+                                <button class="viewSubCount" onclick="" disabled>Subscriber Count</button><br>
+                                <button class="viewViewCount" onclick="" disabled>View Count</button>
+                            </th>
+                            <th class="inactive"><abbr title="Uploads are no longer happening on this channel">Inactive</abbr></th>
+                        </tr>
+                        <tr>
+                            <th><img src="/imgs/profiles/SamSmellsOfApricot.webp" alt="SamSmellsOfApricot" width="200" height="200"></th>
+                            <th>
+                                <p>SamSmellsOfApricot</p>
+                                <button class="viewInfo" onclick="" disabled>Channel Information</button><br>
+                                <button class="viewSubCount" onclick="" disabled>Subscriber Count</button><br>
+                                <button class="viewViewCount" onclick="" disabled>View Count</button>
+                            </th>
+                            <th class="inactive"><abbr title="Uploads are no longer happening on this channel">Inactive</abbr></th>
+                        </tr>
+                        <tr>
+                            <th><img src="/imgs/profiles/Ejsafc.webp" alt="ejsafc" width="200" height="200"></th>
+                            <th>
+                                <p>ejsafc</p>
+                                <button class="viewInfo" onclick="" disabled>Channel Information</button><br>
+                                <button class="viewSubCount" onclick="" disabled>Subscriber Count</button><br>
+                                <button class="viewViewCount" onclick="" disabled>View Count</button>
+                            </th>
+                            <th class="inactive"><abbr title="Uploads are no longer happening on this channel">Inactive</abbr></th>
+                        </tr>
+                        <tr>
+                            <th><img src="/imgs/profiles/JackMasseyWelsh_icon.webp" alt="JackMasseyWelsh" width="200" height="200"></th>
+                            <th>
+                                <p>JackMasseyWelsh</p>
+                                <button class="viewInfo" onclick="" disabled>Channel Information</button><br>
+                                <button class="viewSubCount" onclick="" disabled>Subscriber Count</button><br>
+                                <button class="viewViewCount" onclick="" disabled>View Count</button>
+                            </th>
+                            <th class="inactive"><abbr title="Uploads are no longer happening on this channel">Inactive</abbr></th>
+                        </tr>
+                        <tr>
+                            <th>Upcoming</th>
+                            <th>
+                                <p>Only exists for Jack's next channel 😝</p>
+                                <p>Channel Information<p>
+                                <p>Subscriber Count</p>
+                                <p>View Count</p>
+                            </th>
+                            <th>Unknown</th>
+                        </tr>
+                    </table>
+                    <!-- End of table -->
+                </div>
+            </div>
+
+            <!-- Subscriber Count Box -->
+            <div id="subCounts">
+                <h1>Subscriber Counts</h1>
+                <p class="subCountsP" id="timeFetchedSubs">Time fetched:</p>
+                <small class="subCountsSmall">This function is disabled. Why?</small>
+                <!-- <small class="subCountsSmall">(This only fetches the data once for network reasons)</small> -->
+                <!-- Start of table -->
+                <table>
+                    <tr>
+                        <th>Channel</th>
+                        <th onclick="subscriberEstimatedDetails()">Subscriber Count (ESTIMATED!)</th>
+                        <th onclick="subscriberAPIDetails()">Subscriber Count (API)</th>
+                    </tr>
+                    <!-- <tr>
+                        <th id="subJackSucksAtLife">JackSucksAtLife</th>
+                        <th id="JSALSubEstimated">Getting data...</th>
+                        <th id="JSALSubAPI">YouTube API response is not available due to security reasons</th>
+                    </tr> -->
+                    <tr>
+                        <th colspan="3">This function has been disabled as it relies on sending 15+ requests, and might overwhelm some systems</th>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- View Count Box -->
+            <div id="viewCounts">
+                <h1>View Counts</h1>
+                <p class="subCountsP" id="timeFetchedViews">Time fetched:</p>
+                <small class="subCountsSmall">This function is disabled. Why?</small>
+                <!-- <small class="subCountsSmall">(This only fetches the data once for network reasons)</small> -->
+                <!-- Start of table -->
+                <table>
+                    <tr>
+                        <th>Channel</th>
+                        <th>View Count (ESTIMATED!)</th>
+                        <th>View Count (API)</th>
+                    </tr>
+                    <!-- <tr>
+                        <th id="subJackSucksAtLife">JackSucksAtLife</th>
+                        <th id="JSALSubEstimated">Getting data...</th>
+                        <th id="JSALSubAPI">YouTube API response is not available due to security reasons</th>
+                    </tr> -->
+                    <tr>
+                        <th colspan="3">This function has been disabled as it relies on sending 15+ requests, and might overwhelm some systems</th>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Latest uploads -->
+            <div id="latestUploads">
+                <h1>Latest Uploads</h1>
+                <p class="subCountsSmall">Fetches the latest 5 videos across Jack's "network"</p>
+                <small>This feature is coming soon</small>
+                <table>
+                    <tr>
+                        <th>Title & Thumbnail</th>
+                        <th>Channel</th>
+                        <th>Metadata</th>
+                    </tr>
+                    <tr>
+                        <th colspan="3">Feature coming soon!</th>
+                    </tr>
+                    <!-- <tr>
+                        <th>Video 1</th>
+                        <th>Channel</th>
+                        <th>Fetching data</th>
+                    </tr>
+                    <tr>
+                        <th>Video 2</th>
+                        <th>Channel</th>
+                        <th>Fetching data</th>
+                    </tr>
+                    <tr>
+                        <th>Video 3</th>
+                        <th>Channel</th>
+                        <th>Fetching data</th>
+                    </tr>
+                    <tr>
+                        <th>Video 4</th>
+                        <th>Channel</th>
+                        <th>Fetching data</th>
+                    </tr>
+                    <tr>
+                        <th>Video 5</th>
+                        <th>Channel</th>
+                        <th>Fetching data</th>
+                    </tr> -->
+                </table>
+            </div>
+        </div>
+
+        <!-- Everything must go into main above because of formatting -->
+
+        <!-- Import not-so important scripts -->
+        <script type="text/javascript" src="/js/pages/index.js"></script>
+        <script type="text/javasctip" src="/js/fetch_videos/onHome.js"></script>
+
+        <!-- Write Footer -->
+        <script src="/js/write_html/footer.js"></script>
+        
     </body>
 </html>
+
+<!-- Made with ❤ by Galvin -->

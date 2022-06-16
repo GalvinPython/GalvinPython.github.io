@@ -1,0 +1,1 @@
+document.write("<ul>"),document.write('<li><a href="/">Home</a></li>'),document.write('<!--<li><a href="/blog/">Blog</a></li>-->'),document.write("</ul>");
