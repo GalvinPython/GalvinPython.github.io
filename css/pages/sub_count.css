@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-#subBox, #channelBox, #subCount {
+#subBox, #channelBox, #subCount, #subChart {
     margin: auto;
     width: 85%;
     border-radius: 10px;
@@ -13,7 +13,7 @@
     background-color: #333;
     text-align: center;
 }
-#subCount {
+#subCount, #subChart {
     background-color: #111;
 }
 

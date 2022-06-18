@@ -3,6 +3,16 @@ There's no point in explaining the purpose of this file.
 Only counts from Commit 3 onwards
 
 # Latest Commit
+## Preview 14
+- Released: `18/06/2022`
+- Description: **Updated Subscriber Count pages**
+
+# Commit History
+## C13
+- *Version*: `C13-20220616.2`
+- Released: `16/06/2022`
+- Description: **Updated some CSS**
+
 ## C12
 - *Version*: `C12-20220616`
 - Released: `16/06/2022`
@@ -14,7 +24,6 @@ Only counts from Commit 3 onwards
   - All images now have drop shadows (may conflict)
   - All images on `index.html` have rounded corners
 
-# Commit History
 ## C11
 - *Version*: `C11-20220615.2`
 - Released: `15/06/2022`

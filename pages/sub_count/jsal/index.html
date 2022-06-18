@@ -15,6 +15,7 @@
 
         <!-- Important Scripts -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
     </head>
     <body dir="auto">
@@ -34,11 +35,14 @@
                 <div id="channelBox">
                     <img src="/imgs/profiles/JackSucksAtLife.webp" alt="JackSuckAtLife Profile Picture" width="100" height="100"><br>
                     <div id="subCount">
-                        <b>Subscriber Count (mixerno.space)</b>
+                        <b>Subscriber Count <abbr title="note: this data is not accurate, so take this with a grain of salt">(Estimated)</abbr></b>
                         <p id="subCountText"></p>
                         <br>
                         <b>Subscriber Count (YouTube)</b>
                         <p><i>Coming Soon</i></p>
+                    </div>
+                    <div id="subChart">
+                        <canvas id="subChartCanvas"></canvas>
                     </div>
                     <p id="timeUpdated">Time Updated:</p>
                 </div>
