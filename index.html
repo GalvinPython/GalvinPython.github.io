@@ -1,4 +1,5 @@
-<!-- Preview 14 -->
+<!-- Preview 15 -->
+<!-- Check https://galvinpython.github.io/pages/other/changelog.html for more info -->
 
 <!DOCTYPE html>
 <html lang="en-GB">
@@ -19,27 +20,9 @@
     </head>
     <body dir="auto">
 
-        <!--
-            MOVE TO channel_data.json
-            Channel Name | Abbreviation | Channel ID
-            JackSucksAtStuff | JSAS | UCxLIJccyaRQDeyu6RzUsPuw
-            Jack Massey Welsh | JMW | UCyktGLVQchOpvKgL7GShDWA
-            JackSucksAtGeography | JSAG | UCd15dSPPT-EhTXekA7_UNAQ
-            turd boi420 | t420 | UCbu2qTa75eyjwCKOugX8F6A
-            JackSucksAtPopUpPirate | JSAPUP | UCpCJRHoggwXQhuFbW4gjM_w
-            JacksEpicYoutubeChannelFullOfFunTimesAndFunHiRickX | JackLongName | UCF9R3Ln-u52vUdSO-pFdETw
-            JACKSEPICYOUTUBECHANNELFULLOFFUNTIMESANDFUNHIRICKXHASNOTHINGONMEIAMTHESUPERIORCHANNELIHAVEMORECHARACTERSTHANALLOFJACKSYOUTUBECHANNELSCOMBINEDHAHAHAHAIHAVEMORECHARACTERSTHANJACKSUCKSATLIFEJACKSUCKSATSTUFFJACKMASSEYWELSHJACKSUCKSATGEOGRAPHYJACKSUCKSATCLIPSSAMSMELLSOFAPRICOTSJACKSUCKSATPOPUPPIRATEETCETCIMAGINETHISONAPLAYBUTTONJESUSCHRISTBTWPLEASESUBSCRIBETHANKYOUVERYMUCHHIRICKXxXxXX | JackLongerName | UChLNLQ6r-aGrIFWo_1A9tKQ
-            JackSucksAtClips | JSAC | UCUXNOmIdsoyd5fh5TZHHO5Q
-            SamSmellsOfApricots | SSOAS |
-            SamSmellsOfApricot | SSOA | UCgKbwxXkz95TYVcpvpkCjag
-            ejsafc | ejsafc |
-            JackMasseyWelsh | JMWOld | 
-        -->
-
         <div id="noscript">
             <noscript>⚠ JavaScript is disabled. Enable JavaScript to access full access to the site!</noscript>
         </div>
-
 
         <div id="navbar">
             <p>Navbar under development<br>Site not optimsied for mobile</p>
@@ -62,9 +45,9 @@
                         <tr>
                             <th><img type="image/webp" src="/imgs/profiles/JackSucksAtLife.webp" alt="JackSucksAtLife" width="200" height="200"></th>
                             <th>
-                                <p>JackSucksAtLife</p>
-                                <button class="viewInfo" onclick="re_info_jsal()">Channel Information <i>(BETA)</i></button><br>
-                                <button class="viewSubCount cs" onclick="sc_jsal()">Subscriber Count <i>(ALPHA)</i></button><br>
+                                <p>JackSucksAtLife / JSAL</p>
+                                <button class="viewInfo" onclick="re_info_jsal()">Channel Information <i>(WIP)</i></button><br>
+                                <button class="viewSubCount" onclick="sc_jsal()">Subscriber Count <b>*New*</b></button><br>
                                 <button class="viewViewCount cs" onclick="" disabled>View Count <i>(COMING SOON)</i></button>
                             </th>
                             <th class="active"><abbr title="Uploads are done frequently on this channel">Active</abbr></th>
@@ -72,9 +55,9 @@
                         <tr>
                             <th><img type="image/webp" src="/imgs/profiles/JackSucksAtStuff.webp" alt="JackSucksAtStuff" width="200" height="200"></th>
                             <th>
-                                <p>JackSucksAtStuff</p>
+                                <p>JackSucksAtStuff / JSAS</p>
                                 <button class="viewInfo" onclick="" disabled>Channel Information</button><br>
-                                <button class="viewSubCount" onclick="" disabled>Subscriber Count</button><br>
+                                <button class="viewSubCount" onclick="sc_jsas()">Subscriber Count <b>*New*</b></button><br>
                                 <button class="viewViewCount" onclick="" disabled>View Count</button>
                             </th>
                             <th class="active"><abbr title="Uploads are done frequently on this channel">Active</abbr></th>
@@ -82,9 +65,9 @@
                         <tr>
                             <th><img type="image/webp" src="/imgs/profiles/Jack_Massey_Welsh.webp" alt="Jack Massey Welsh" width="200" height="200"></th>
                             <th>
-                                <p>Jack Massey Welsh</p>
+                                <p>Jack Massey Welsh / JMW</p>
                                 <button class="viewInfo" onclick="" disabled>Channel Information</button><br>
-                                <button class="viewSubCount" onclick="" disabled>Subscriber Count</button><br>
+                                <button class="viewSubCount" onclick="sc_jmw()">Subscriber Count <b>*New*</b></button><br>
                                 <button class="viewViewCount" onclick="" disabled>View Count</button>
                             </th>
                             <th class="active"><abbr title="Uploads are done frequently on this channel">Active</abbr></th>
@@ -92,9 +75,9 @@
                         <tr>
                             <th><img type="image/webp" src="/imgs/profiles/JackSucksAtGeography.webp" alt="JackSucksAtGeography" width="200" height="200"></th>
                             <th>
-                                <p>JackSucksAtGeography</p>
+                                <p>JackSucksAtGeography / JSAG</p>
                                 <button class="viewInfo" onclick="" disabled>Channel Information</button><br>
-                                <button class="viewSubCount" onclick="" disabled>Subscriber Count</button><br>
+                                <button class="viewSubCount" onclick="sc_jsag()">Subscriber Count <b>*New*</b></button><br>
                                 <button class="viewViewCount" onclick="" disabled>View Count</button>
                             </th>
                             <th class="active"><abbr title="Uploads are done frequently on this channel">Active</abbr></th>
@@ -102,9 +85,9 @@
                         <tr>
                             <th><img src="/imgs/profiles/Turd_boi420.webp" alt="turd boi420" width="200" height="200"></th>
                             <th>
-                                <p>turd boi420</p>
+                                <p>turd boi420 / tb420</p>
                                 <button class="viewInfo" onclick="" disabled>Channel Information</button><br>
-                                <button class="viewSubCount" onclick="" disabled>Subscriber Count</button><br>
+                                <button class="viewSubCount" onclick="sc_tb420()">Subscriber Count <b>*New*</b></button><br>
                                 <button class="viewViewCount" onclick="" disabled>View Count</button>
                             </th>
                             <th class="semi-active"><abbr title="Uploads are done from time to time, but not frequently">Semi-Active</abbr></th>
@@ -112,9 +95,9 @@
                         <tr>
                             <th><img src="/imgs/profiles/JackSucksAtPopUpPirate.webp" alt="JackSucksAtPopUpPirate" width="200" height="200"></th>
                             <th>
-                                <p>JackSucksAtPopUpPirate</p>
+                                <p>JackSucksAtPopUpPirate / JSAPUP</p>
                                 <button class="viewInfo" onclick="" disabled>Channel Information</button><br>
-                                <button class="viewSubCount" onclick="" disabled>Subscriber Count</button><br>
+                                <button class="viewSubCount" onclick="sc_jsapup()">Subscriber Count <b>*New*</b></button><br>
                                 <button class="viewViewCount" onclick="" disabled>View Count</button>
                             </th>
                             <th class="inactive"><abbr title="Uploads are no longer happening on this channel">Inactive</abbr></th>
@@ -122,19 +105,19 @@
                         <tr>
                             <th><img src="/imgs/profiles/JacksEpicYoutubeChannelFullOfFunTimesAndFunHiRickX.webp" alt="JacksEpicYoutubeChannelFullOfFunTimesAndFunHiRickX" width="200" height="200"></th>
                             <th>
-                                <p>JacksEpicYoutubeChannelFullOfFunTimesAndFunHiRickX</p>
+                                <p>JacksEpicYoutubeChannelFullOfFunTimesAndFunHiRickX / rickx</p>
                                 <button class="viewInfo" onclick="" disabled>Channel Information</button><br>
-                                <button class="viewSubCount" onclick="" disabled>Subscriber Count</button><br>
+                                <button class="viewSubCount" onclick="sc_rickx()">Subscriber Count <b>*New*</b></button><br>
                                 <button class="viewViewCount" onclick="" disabled>View Count</button>
                             </th>
                             <th class="semi-active"><abbr title="Uploads are done from time to time, but not frequently">Semi-Active</abbr></th>
                         </tr>
                         <tr>
                             <th><img src="/imgs/profiles/JackLongName.webp" alt="JACKSEPICYOUTUBECHANNELFULLOFFUNTIMESANDFUNHIRICKXHASNOTHINGONMEIAMTHESUPERIORCHANNELIHAVEMORECHARACTERSTHANALLOFJACKSYOUTUBECHANNELSCOMBINEDHAHAHAHAIHAVEMORECHARACTERSTHANJACKSUCKSATLIFEJACKSUCKSATSTUFFJACKMASSEYWELSHJACKSUCKSATGEOGRAPHYJACKSUCKSATCLIPSSAMSMELLSOFAPRICOTSJACKSUCKSATPOPUPPIRATEETCETCIMAGINETHISONAPLAYBUTTONJESUSCHRISTBTWPLEASESUBSCRIBETHANKYOUVERYMUCHHIRICKXxXxXX" width="200" height="200"></th>
-                            <th onclick="jackLongName()">
-                                <abbr title="JACKSEPICYOUTUBECHANNELFULLOFFUNTIMESANDFUNHIRICKXHASNOTHINGONMEIAMTHESUPERIORCHANNELIHAVEMORECHARACTERSTHANALLOFJACKSYOUTUBECHANNELSCOMBINEDHAHAHAHAIHAVEMORECHARACTERSTHANJACKSUCKSATLIFEJACKSUCKSATSTUFFJACKMASSEYWELSHJACKSUCKSATGEOGRAPHYJACKSUCKSATCLIPSSAMSMELLSOFAPRICOTSJACKSUCKSATPOPUPPIRATEETCETCIMAGINETHISONAPLAYBUTTONJESUSCHRISTBTWPLEASESUBSCRIBETHANKYOUVERYMUCHHIRICKXxXxXX"><i>*Hover*</i><br></abbr>
+                            <th>
+                                <abbr title="JACKSEPICYOUTUBECHANNELFULLOFFUNTIMESANDFUNHIRICKXHASNOTHINGONMEIAMTHESUPERIORCHANNELIHAVEMORECHARACTERSTHANALLOFJACKSYOUTUBECHANNELSCOMBINEDHAHAHAHAIHAVEMORECHARACTERSTHANJACKSUCKSATLIFEJACKSUCKSATSTUFFJACKMASSEYWELSHJACKSUCKSATGEOGRAPHYJACKSUCKSATCLIPSSAMSMELLSOFAPRICOTSJACKSUCKSATPOPUPPIRATEETCETCIMAGINETHISONAPLAYBUTTONJESUSCHRISTBTWPLEASESUBSCRIBETHANKYOUVERYMUCHHIRICKXxXxXX"><i>*Hover* / epic</i><br></abbr>
                                 <button class="viewInfo" onclick="" disabled>Channel Information</button><br>
-                                <button class="viewSubCount" onclick="" disabled>Subscriber Count</button><br>
+                                <button class="viewSubCount" onclick="sc_epic()">Subscriber Count <b>*New*</b></button><br>
                                 <button class="viewViewCount" onclick="" disabled>View Count</button>
                             </th>
                             <th class="active"><abbr title="Uploads are done frequently on this channel">Active</abbr></th>
@@ -142,9 +125,9 @@
                         <tr>
                             <th><img type="image/webp" src="/imgs/profiles/JackSucksAtClips.webp" alt="JackSucksAtClips" width="200" height="200"></th>
                             <th>
-                                <p>JackSucksAtClips</p>
+                                <p>JackSucksAtClips / JSAC</p>
                                 <button class="viewInfo" onclick="" disabled>Channel Information</button><br>
-                                <button class="viewSubCount" onclick="" disabled>Subscriber Count</button><br>
+                                <button class="viewSubCount" onclick="sc_jsac()">Subscriber Count <b>*New*</b></button><br>
                                 <button class="viewViewCount" onclick="" disabled>View Count</button>
                             </th>
                             <th class="active"><abbr title="Uploads are done frequently on this channel">Active</abbr></th>
@@ -152,9 +135,10 @@
                         <tr>
                             <th><img type="image/webp" src="/imgs/profiles/NoContextJackSucksAtLife.webp" alt="No Context JackSucksAtLife" width="200" height="200"></th>
                             <th>
-                                <p>No Context JackSucksAtLife</p>
+                                <!-- <p>No Context JackSucksAtLife / NCJSAL</p> -->
+                                <p>i</p>
                                 <button class="viewInfo" onclick="" disabled>Channel Information</button><br>
-                                <button class="viewSubCount" onclick="" disabled>Subscriber Count</button><br>
+                                <button class="viewSubCount" onclick="sc_i()">Subscriber Count <b>*New*</b></button><br>
                                 <button class="viewViewCount" onclick="" disabled>View Count</button>
                             </th>
                             <th class="active"><abbr title="Uploads are done frequently on this channel">Active</abbr></th>
@@ -162,9 +146,9 @@
                         <tr>
                             <th><img type="image/webp" src="/imgs/profiles/JSAE.webp" alt="JackSucksAtEspañol" width="200" height="200"></th>
                             <th>
-                                <p>JackSucksAtEspañol</p>
+                                <p>JackSucksAtEspañol / JSAE</p>
                                 <button class="viewInfo" onclick="" disabled>Channel Information</button><br>
-                                <button class="viewSubCount" onclick="" disabled>Subscriber Count</button><br>
+                                <button class="viewSubCount" onclick="sc_jsae()">Subscriber Count <b>*New*</b></button><br>
                                 <button class="viewViewCount" onclick="" disabled>View Count</button>
                             </th>
                             <th class="active"><abbr title="Uploads are done frequently on this channel">Active</abbr></th>
@@ -172,9 +156,9 @@
                         <tr>
                             <th><img src="/imgs/profiles/Samsmellsofapricots.webp" alt="SamSmellsOfApricots" width="200" height="200"></th>
                             <th>
-                                <p>SamSmellsOfApricots</p>
+                                <p>SamSmellsOfApricots / SSOAS</p>
                                 <button class="viewInfo" onclick="" disabled>Channel Information</button><br>
-                                <button class="viewSubCount" onclick="" disabled>Subscriber Count</button><br>
+                                <button class="viewSubCount" onclick="sc_ssoas()">Subscriber Count <b>*New*</b></button><br>
                                 <button class="viewViewCount" onclick="" disabled>View Count</button>
                             </th>
                             <th class="inactive"><abbr title="Uploads are no longer happening on this channel">Inactive</abbr></th>
@@ -182,9 +166,9 @@
                         <tr>
                             <th><img src="/imgs/profiles/SamSmellsOfApricot.webp" alt="SamSmellsOfApricot" width="200" height="200"></th>
                             <th>
-                                <p>SamSmellsOfApricot</p>
+                                <p>SamSmellsOfApricot / SSOA</p>
                                 <button class="viewInfo" onclick="" disabled>Channel Information</button><br>
-                                <button class="viewSubCount" onclick="" disabled>Subscriber Count</button><br>
+                                <button class="viewSubCount" onclick="sc_ssoa()">Subscriber Count <b>*New*</b></button><br>
                                 <button class="viewViewCount" onclick="" disabled>View Count</button>
                             </th>
                             <th class="inactive"><abbr title="Uploads are no longer happening on this channel">Inactive</abbr></th>
@@ -194,7 +178,7 @@
                             <th>
                                 <p>ejsafc</p>
                                 <button class="viewInfo" onclick="" disabled>Channel Information</button><br>
-                                <button class="viewSubCount" onclick="" disabled>Subscriber Count</button><br>
+                                <button class="viewSubCount" onclick="sc_ejsafc()">Subscriber Count <b>*New*</b></button><br>
                                 <button class="viewViewCount" onclick="" disabled>View Count</button>
                             </th>
                             <th class="inactive"><abbr title="Uploads are no longer happening on this channel">Inactive</abbr></th>
@@ -202,9 +186,9 @@
                         <tr>
                             <th><img src="/imgs/profiles/JackMasseyWelsh_icon.webp" alt="JackMasseyWelsh" width="200" height="200"></th>
                             <th>
-                                <p>JackMasseyWelsh</p>
+                                <p>JackMasseyWelsh / OldJMW</p>
                                 <button class="viewInfo" onclick="" disabled>Channel Information</button><br>
-                                <button class="viewSubCount" onclick="" disabled>Subscriber Count</button><br>
+                                <button class="viewSubCount" onclick="sc_oldjmw()">Subscriber Count <b>*New*</b></button><br>
                                 <button class="viewViewCount" onclick="" disabled>View Count</button>
                             </th>
                             <th class="inactive"><abbr title="Uploads are no longer happening on this channel">Inactive</abbr></th>

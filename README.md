@@ -1,6 +1,10 @@
 # JSALStatsSite
 A website designed for the JSALStats Twitter bot
 
+# Features
+## Subscriber Counts
+- WIP
+
 # Branches
 |Name|Brief Purpose|Link|Repository|Notes|
 |---|---|---|--|---|

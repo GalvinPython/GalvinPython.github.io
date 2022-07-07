@@ -1,4 +1,4 @@
-const channelId = 'UCewMTclBJZPaNEfbf-qYMGA';
+const channelId = 'UCUXNOmIdsoyd5fh5TZHHO5Q';
 const baseUrl = 'https://mixerno.space/api/youtube-channel-counter/user'
 
 // Create chart

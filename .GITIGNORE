@@ -7,3 +7,9 @@ compatability.md
 
 # Ignore old code
 _old/
+
+# Ignore placeholders
+*.placeholder
+
+# Ignore the "blog"
+blog/

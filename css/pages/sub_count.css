@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-#subBox, #channelBox, #subCount, #subChart {
+#subBox, #channelBox, #subCount, #subChart, #historyBox, #lastYear {
     margin: auto;
     width: 85%;
     border-radius: 10px;
@@ -9,11 +9,11 @@
 #subBox {
     background-color: #222;
 }
-#channelBox {
+#channelBox, #historyBox {
     background-color: #333;
     text-align: center;
 }
-#subCount, #subChart {
+#subCount, #subChart, #lastYear {
     background-color: #111;
 }
 
@@ -25,4 +25,10 @@ img {
     transition-delay: 100ms;
     transition-duration: 1s;
     border-radius: 20%;
+}
+
+abbr[title] {
+    border-bottom: none !important;
+    cursor: inherit !important;
+    text-decoration: none !important;
 }
