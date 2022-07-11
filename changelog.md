@@ -3,8 +3,27 @@ There's no point in explaining the purpose of this file.
 Only counts from Preview 2 onwards
 
 # Latest Commit
+## Preview 16
+- Released: `11/07/2022`
+- Description: **Minor CSS improvements**
+
+### Additions
+- `/pages/*/index.html`
+  - Added for navigation
+
+### Modifications
+- `JackSucksAtPopUpPirate.webp`
+  - Updated to the latest PFP with the gradient
+- `footer.js`
+  - Updated footer a bit
+- `navbar.js`
+  - Added dropdown menus for better navigation and aesthetics
+- `index.html`
+  - Removed **NEW** tag from *Sub Count* buttons
+
+# Commit History
 ## Preview 15
-- Released: `XX/07/2022`
+- Released: `07/07/2022`
 - Description: **Released Subscriber Count page for all channels**
 
 ### Modifications
@@ -21,7 +40,6 @@ Only counts from Preview 2 onwards
 - All channels have their own JavaScript and HTML files
   - Really nothing else to mention
 
-# Commit History
 ## Preview 14
 - Released: `18/06/2022`
 - Description: **Updated Subscriber Count pages**
