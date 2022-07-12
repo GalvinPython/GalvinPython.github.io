@@ -3,6 +3,16 @@ There's no point in explaining the purpose of this file.
 Only counts from Preview 2 onwards
 
 # Latest Commit
+## Preview 17
+- Released: `12/07/2022`
+- Description: **Updated Navbar**
+
+### Modifications
+- `index.html`
+  - Replaced the message **Navbar under development. Site not optimsied for mobile** with **NOTE: There is no mobile support (yet)**
+  - This message is now written in the navbar, not in index.html
+
+# Commit History
 ## Preview 16
 - Released: `11/07/2022`
 - Description: **Minor CSS improvements**
@@ -21,7 +31,6 @@ Only counts from Preview 2 onwards
 - `index.html`
   - Removed **NEW** tag from *Sub Count* buttons
 
-# Commit History
 ## Preview 15
 - Released: `07/07/2022`
 - Description: **Released Subscriber Count page for all channels**
