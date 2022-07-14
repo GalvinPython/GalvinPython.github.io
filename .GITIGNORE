@@ -13,3 +13,6 @@ _old/
 
 # Ignore the "blog"
 blog/
+
+# Ignore minified code - only for distribution
+min/

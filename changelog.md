@@ -3,6 +3,24 @@ There's no point in explaining the purpose of this file.
 Only counts from Preview 2 onwards
 
 # Latest Commit
+## Preview 18
+- Released: `14/07/2022`
+- Description: **Added View Count Page + Updated homepage**
+
+### Modifications
+- `index.html`
+  - Added `type="button"` attribute to all buttons
+  - Disabled and enabled some buttons
+  - Added redirect functions to buttons for future use
+- `navbar.html`
+  - Added an *other* dropdown to navbar
+  - Added "*coming soon*" note for links with `javascript:void(0)` as their redirect
+
+### Additions
+- View Pages  
+  - Only added for JSAL atm
+
+# Commit History
 ## Preview 17
 - Released: `12/07/2022`
 - Description: **Updated Navbar**
@@ -12,7 +30,6 @@ Only counts from Preview 2 onwards
   - Replaced the message **Navbar under development. Site not optimsied for mobile** with **NOTE: There is no mobile support (yet)**
   - This message is now written in the navbar, not in index.html
 
-# Commit History
 ## Preview 16
 - Released: `11/07/2022`
 - Description: **Minor CSS improvements**
