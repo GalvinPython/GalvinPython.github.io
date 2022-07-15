@@ -2,8 +2,18 @@
 A website designed for the JSALStats Twitter bot
 
 # Features
-## Subscriber Counts
-- WIP
+## Subscriber and View Counts
+- Get estimated counts
+- Updates every 4 seconds
+- Interactive graph
+- Upcoming:
+  - Customisation of graphs
+  - YouTube API data
+
+# Upcoming
+- Channel Information pages
+- Video stats  
+(+ many more)
 
 # Branches
 |Name|Brief Purpose|Link|Repository|Notes|
@@ -16,4 +26,4 @@ A website designed for the JSALStats Twitter bot
 [Bot](https://twitter.com/jsalstats)
 
 # Repositories
-[JSALStats](https://github.com/galvinpython/jsalstats)
+[JSALStats Bot](https://github.com/galvinpython/jsalstats)
