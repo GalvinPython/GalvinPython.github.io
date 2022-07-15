@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    <head>
+        <meta charset="utf-8">
+        
+        <!-- Meta tags -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Basic HTML crap -->
+        <title>JSALStats</title>
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="/css/global.css">
+        <link rel="stylesheet" href="/css/pages/sub_count.css">
+
+        <!-- Important Scripts -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    </head>
+    <body dir="auto">
+        <div id="noscript">
+            <noscript>⚠ JavaScript is disabled. Enable JavaScript to access full access to the site!</noscript>
+        </div>
+
+        <div id="navbar">
+            <script src="/js/write_html/navbar.js"></script>
+        </div>
+
+        <div id="main">
+            <div id="subBox">
+                <h1>SamSmellsOfApricots</h1>
+                <h3>View Count</h3>
+                <img src="/imgs/profiles/Samsmellsofapricots.webp" alt="SamSmellsOfApricots Profile Picture" width="100" height="100"><br>
+                <div id="channelBox">
+                    <h5>Overview</h5>
+                    <div id="subCount">
+                        <b>View Count <abbr title="note: this data is not accurate, so take this with a grain of salt">(Estimated)</abbr></b>
+                        <p id="subCountText"></p>
+                        <b>View Count (YouTube)</b>
+                        <p><i>Coming Soon</i></p>
+                    </div>
+                    <div id="subChart">
+                        <p>Progress Chart</p>
+                        <canvas id="subChartCanvas">
+                            <p>Fallback</p>
+                        </canvas>
+                        <button disabled>Customise</button>
+                        <button disabled>Reset</button>
+                        <!-- <div id="customiseGraph">
+                            <p>The 'customise' button allows you to change the graph in any way you want!</p>
+                        </div> -->
+                    </div>
+                    <p id="timeUpdated">Time Updated:</p>
+                    <small>Updates every 4 seconds</small>
+                </div>
+                <div id="historyBox">
+                    <h5>History Box</h5>
+                    <div id="lastYear">
+                        <p>Last 365 Days</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Everything must go into main above because of formatting -->
+
+        <!-- Import not-so important scripts -->
+        <script src="/js/fetch_data/views/ssoas.js"></script>
+
+        <!-- Write Footer -->
+        <script src="/js/write_html/footer.js"></script>
+        
+    </body>
+</html>
+
+<!-- Made with ❤ by Galvin -->

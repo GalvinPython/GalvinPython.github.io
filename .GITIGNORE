@@ -1,4 +1,7 @@
 ### Other Stuff ###
+# Ignore NPM packages
+node_modules/
+
 # Ignore private files
 private/
 

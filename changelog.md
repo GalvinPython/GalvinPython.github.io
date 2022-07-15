@@ -3,6 +3,11 @@ There's no point in explaining the purpose of this file.
 Only counts from Preview 2 onwards
 
 # Latest Commit
+## Preview 19
+- Released: `15/07/2022`
+- Description: **View Count Pages active for all channels**
+
+# Commit History
 ## Preview 18
 - Released: `14/07/2022`
 - Description: **Added View Count Page + Updated homepage**
@@ -20,7 +25,6 @@ Only counts from Preview 2 onwards
 - View Pages  
   - Only added for JSAL atm
 
-# Commit History
 ## Preview 17
 - Released: `12/07/2022`
 - Description: **Updated Navbar**
