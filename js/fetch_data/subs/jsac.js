@@ -11,8 +11,8 @@ var subChartVar = new Chart(ctx_live, {
             label: 'Subscriber Count',
             fill: true,
             data: [],
-            backgroundColor: 'rgba(254,84,111,0.65)',
-            borderColor: 'rgba(255,73,173,1)',
+            backgroundColor: 'rgba(156,81,254,255)',
+            borderColor: 'rgba(75,74,254,255)',
             borderWidth: 2
         }]
     },

@@ -3,11 +3,26 @@ There's no point in explaining the purpose of this file.
 Only counts from Preview 2 onwards
 
 # Latest Commit
+## Preview 20
+- Released: `16/07/2022`
+- Description: **Updated data graphs**
+
+### Modifications
+- images
+  - Updated the following channels to the latest gradient:
+    - Jack Massey Welsh (Tesla)
+    - *50 Character Long Channel Name*
+    - JSAG
+    - JSAL
+    - JSAS
+- all `sub_count` and `view_count` pages
+  - Updated the data chart to the channels colour palette
+
+# Commit History
 ## Preview 19
 - Released: `15/07/2022`
 - Description: **View Count Pages active for all channels**
 
-# Commit History
 ## Preview 18
 - Released: `14/07/2022`
 - Description: **Added View Count Page + Updated homepage**
