@@ -25,10 +25,19 @@ body > *, footer > * {
 footer {
     background-color: #222;
     border-top: 5px dashed #333;
-} #footerNote {
+} .footerNote {
     text-align: center;
     color: #444;
 } a.footerNote {
+    text-align: center;
+}
+
+.footCol {
+    display: flex;
+} .footCol > div {
+    width: 25%;
+    height: 100%;
+} .footCol > h3 {
     text-align: center;
 }
 

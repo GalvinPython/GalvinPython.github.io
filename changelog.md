@@ -3,6 +3,28 @@ There's no point in explaining the purpose of this file.
 Only counts from Preview 2 onwards
 
 # Latest Commit
+## Preview 21
+- Released: `17/07/2022`
+- Description: **Updated footer + new SVGs**
+
+### Modifications
+- Profile Pictures
+  - Updated *JackSucksAtClips*
+- All `sub_count` and `view_count` pages
+  - Updated text in `subCountText`
+  - Removed line break which would appear after data was fetched
+
+### Additions
+- Images
+  - `.svg`s for:
+    - GitHub
+    - Instagram
+    - Reddit
+    - Twitter
+    - YouTube
+  - Added for later use
+
+# Commit History
 ## Preview 20
 - Released: `16/07/2022`
 - Description: **Updated data graphs**
@@ -18,7 +40,6 @@ Only counts from Preview 2 onwards
 - all `sub_count` and `view_count` pages
   - Updated the data chart to the channels colour palette
 
-# Commit History
 ## Preview 19
 - Released: `15/07/2022`
 - Description: **View Count Pages active for all channels**

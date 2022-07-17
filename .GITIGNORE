@@ -19,3 +19,6 @@ blog/
 
 # Ignore minified code - only for distribution
 min/
+
+# Ignore .env files
+*.env
