@@ -12,10 +12,12 @@
         <!-- Styles -->
         <link rel="stylesheet" href="/css/global.css">
         <link rel="stylesheet" href="/css/pages/sub_count.css">
+        <link rel="stylesheet" href="/css/odometer.css">
 
         <!-- Important Scripts -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script defer src="/js/odomter.js"></script>
 
     </head>
     <body dir="auto">
@@ -36,9 +38,9 @@
                     <h5>Overview</h5>
                     <div id="subCount">
                         <b>View Count <abbr title="note: this data is not accurate, so take this with a grain of salt">(Estimated)</abbr></b>
-                        <p id="subCountText">Loading...</p>
-                        <b>View Count (YouTube)</b>
-                        <p><i>Coming Soon</i></p>
+                        <br><p class="odometer" id="subCountText"></p><br>
+                        <b>View Count <abbr title="data fetched directly from YouTube">(YouTube)</abbr></b>
+                        <br><p class="odometer" id="subCountText"></p><br>
                     </div>
                     <div id="subChart">
                         <p>Progress Chart</p>

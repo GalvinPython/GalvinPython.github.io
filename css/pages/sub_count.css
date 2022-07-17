@@ -15,6 +15,8 @@
 }
 #subCount, #subChart, #lastYear {
     background-color: #111;
+} #subCount > p {
+    font-size: 69px;
 }
 
 img {

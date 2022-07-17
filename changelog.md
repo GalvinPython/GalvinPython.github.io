@@ -3,6 +3,19 @@ There's no point in explaining the purpose of this file.
 Only counts from Preview 2 onwards
 
 # Latest Commit
+## Preview 22
+- Released: `17/07/2022`
+- Description: **Added odometers**
+
+### Modifications
+- All `sub_count` and `view_count` pages
+  - Added an odometer to both Estimated and YouTube API data
+    - *(YouTube API data is still not working - will be functional in a couple updates time)*
+- `index.html`
+  - Buttons don't open in a new page - instead links are replaced
+    - *(There will be an option to open in a new tab shortly)*
+
+# Commit History
 ## Preview 21
 - Released: `17/07/2022`
 - Description: **Updated footer + new SVGs**
@@ -24,7 +37,6 @@ Only counts from Preview 2 onwards
     - YouTube
   - Added for later use
 
-# Commit History
 ## Preview 20
 - Released: `16/07/2022`
 - Description: **Updated data graphs**
