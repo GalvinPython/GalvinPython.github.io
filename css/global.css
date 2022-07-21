@@ -41,6 +41,19 @@ footer {
     text-align: center;
 }
 
+.footDiv > div > img {
+    justify-content: center;
+    display: flex;
+    float: left;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: fit-content;
+    box-shadow: none !important;
+} .footDiv > div > a {
+    float: right;
+    width: 90%;
+}
+
 h1, h2, h3, h4, h5 {
     text-align: center;
 }
@@ -83,6 +96,10 @@ td, th {
 tr:nth-child(even) {
     background-color: #444;
     color: #222;
+} tr:first-child > th {
+    text-align: center;
+    text-decoration: underline;
+    font-size: larger;
 }
 
 /* Links */

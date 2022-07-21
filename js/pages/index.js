@@ -1,3 +1,37 @@
+/* Fetch Videos */
+
+// So yeah - this large chunk of code is broken
+// function fetchLatestVideo() {
+//     fetch("https://www.youtube.com/feeds/videos.xml?channel_id=UCewMTclBJZPaNEfbf-qYMGA")
+//     .then(response => response.text())
+//     .then(data => {
+//         const parser = new DOMParser();
+//         const xml = parser.parseFromString(data, "application/xml");
+//         console.log(xml)
+//     })
+//     .catch(console.error)
+//     // WITH HEADERS V
+//     var url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCewMTclBJZPaNEfbf-qYMGA";
+
+//     var xhr = new XMLHttpRequest();
+//     xhr.open("OPTIONS", url);
+
+//     xhr.setRequestHeader("Origin", "http://localhost:8000");
+//     xhr.setRequestHeader("Access-Control-Request-Method", "POST");
+//     xhr.setRequestHeader("Access-Control-Request-Headers", "Content-Type, Authorization");
+
+//     xhr.onreadystatechange = function () {
+//         if (xhr.readyState === 4) {
+//             console.log(xhr.status);
+//             console.log(xhr.responseText);
+//         }
+//     };
+
+//     xhr.send();
+// }
+
+// fetchLatestVideo()
+
 /* Redirects */
 // Channel page
 function info_jsal(){window.location = '/pages/channel_info/jsal'}

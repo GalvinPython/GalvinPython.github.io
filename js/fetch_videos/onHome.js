@@ -1,3 +1,0 @@
-function fetchVideos() {
-    // Do stuff
-}

@@ -1,0 +1,2 @@
+# API
+The files in this folder are designed to make connections to APIs more secure using node.js. However, these files aren't committed to GitHub for this reason. They may become their own repo at some point in the future

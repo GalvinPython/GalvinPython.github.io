@@ -37,18 +37,18 @@
                 <div id="channelBox">
                     <h5>Overview</h5>
                     <div id="subCount">
-                        <b>View Count <abbr title="note: this data is not accurate, so take this with a grain of salt">(Estimated)</abbr></b>
+                        <b><abbr title="note: this data is not accurate, so take this with a grain of salt">Estimated View Count </abbr></b>
                         <br><p class="odometer" id="subCountText"></p><br>
-                        <b>View Count <abbr title="data fetched directly from YouTube">(YouTube)</abbr></b>
-                        <br><p class="odometer" id="subCountText"></p><br>
+                        <b>YouTube displays:</b>
+                        <br><p class="odometer" id="subCountTextAPI"></p><br>
                     </div>
                     <div id="subChart">
                         <p>Progress Chart</p>
                         <canvas id="subChartCanvas">
                             <p>Fallback</p>
                         </canvas>
-                        <button disabled>Customise</button>
-                        <button disabled>Reset</button>
+                        <button type="button" disabled>Customise</button>
+                        <button type="button" disabled>Reset</button>
                         <!-- <div id="customiseGraph">
                             <p>The 'customise' button allows you to change the graph in any way you want!</p>
                         </div> -->
@@ -56,12 +56,7 @@
                     <p id="timeUpdated">Time Updated:</p>
                     <small>Updates every 4 seconds</small>
                 </div>
-                <div id="historyBox">
-                    <h5>History Box</h5>
-                    <div id="lastYear">
-                        <p>Last 365 Days</p>
-                    </div>
-                </div>
+                <br>
             </div>
         </div>
 

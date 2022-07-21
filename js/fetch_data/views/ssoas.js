@@ -3,7 +3,7 @@ const baseUrl = 'https://mixerno.space/api/youtube-channel-counter/user'
 
 // Create chart
 var ctx_live = document.getElementById('subChartCanvas').getContext('2d');
-var subChartVar = new Chart(ctx_live, {
+var viewChartVar = new Chart(ctx_live, {
     type: 'line',
     data: {
         labels: [],
@@ -47,28 +47,34 @@ var subChartVar = new Chart(ctx_live, {
     }
 });
 
-let SubData = () => {
+let ViewData = () => {
     fetch(`${baseUrl}/${channelId}`)
     .then(response => {
         return response.json();
     })
     .then(data => {
         const textBox = document.getElementById('subCountText');
+        const textBoxAPI = document.getElementById('subCountTextAPI');
         const timeBox = document.getElementById('timeUpdated');
 
-        // Get subscriber count
-        let subCountEstimated = data.counts[3].count;
-        subChartVar.data.datasets[0].data.push(subCountEstimated);
-        let subCountEstimatedFormated = numeral(subCountEstimated).format('0,0');
-        textBox.innerHTML = subCountEstimatedFormated;
-        console.log(subCountEstimatedFormated);
+        // Get view count (estimated)
+        let viewCountEstimated = data.counts[3].count;
+        viewChartVar.data.datasets[0].data.push(viewCountEstimated);
+        let viewCountEstimatedFormatted = numeral(viewCountEstimated).format('0,0');
+        textBox.innerHTML = viewCountEstimatedFormatted;
+        console.log(viewCountEstimatedFormatted);
         
+        // Get view count (API)
+        let viewCountAPI = data.counts[4].count;
+        let viewCountAPIFormatted = numeral(viewCountAPI).format('0,0');
+        textBoxAPI.innerHTML = viewCountAPIFormatted;
+
         // Update time
         let timeUpdate = fetchDate();
-        subChartVar.data.labels.push(timeUpdate);
+        viewChartVar.data.labels.push(timeUpdate);
         timeBox.innerHTML = `Time Updated: ${timeUpdate}`;
 
-        subChartVar.update()
+        viewChartVar.update()
     })
 }
 
@@ -88,11 +94,4 @@ const fetchDate = () => {
     return `${dh}:${dmin}:${ds}.${dmil}`;
 }
 
-// Preview 17
-const APIData = () => {
-    console.log("No YouTube API data yet :(")
-}
-
-//SubData();
-APIData();
-setInterval(SubData, 5000)
+setInterval(ViewData, 4000)

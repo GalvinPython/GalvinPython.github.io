@@ -11,7 +11,7 @@ var subChartVar = new Chart(ctx_live, {
             label: 'Subscriber Count',
             fill: true,
             data: [],
-            backgroundColor: 'rgba(241,240,239,1)',
+            backgroundColor: 'rgba(241,240,239,0.65)',
             borderColor: 'rgba(101,99,100,1)',
             borderWidth: 2
         }]
@@ -54,14 +54,20 @@ let SubData = () => {
     })
     .then(data => {
         const textBox = document.getElementById('subCountText');
+        const textBoxAPI = document.getElementById('subCountTextAPI');
         const timeBox = document.getElementById('timeUpdated');
 
-        // Get subscriber count
+        // Get subscriber count (estimated)
         let subCountEstimated = data.counts[0].count;
         subChartVar.data.datasets[0].data.push(subCountEstimated);
         let subCountEstimatedFormated = numeral(subCountEstimated).format('0,0');
         textBox.innerHTML = subCountEstimatedFormated;
         console.log(subCountEstimatedFormated);
+
+        // Get subscriber count (API)
+        let subCountAPI = data.counts[2].count;
+        let subCountAPIFormatted = numeral(subCountAPI).format('0,0');
+        textBoxAPI.innerHTML = subCountAPIFormatted;
         
         // Update time
         let timeUpdate = fetchDate();
@@ -88,11 +94,4 @@ const fetchDate = () => {
     return `${dh}:${dmin}:${ds}.${dmil}`;
 }
 
-// Preview 17
-const APIData = () => {
-    console.log("No YouTube API data yet :(")
-}
-
-//SubData();
-APIData();
-setInterval(SubData, 5000)
+setInterval(SubData, 4000)

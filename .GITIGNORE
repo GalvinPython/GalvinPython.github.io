@@ -22,3 +22,6 @@ min/
 
 # Ignore .env files
 *.env
+
+# Ignore API files - apart from readme.md
+api/src

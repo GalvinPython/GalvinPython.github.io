@@ -3,6 +3,29 @@ There's no point in explaining the purpose of this file.
 Only counts from Preview 2 onwards
 
 # Latest Commit
+## Preview 23
+- Released: `21/07/2022`
+- Description: **✨ Code Cleanup + API Data**
+
+### 🔨 Modifications
+- All `sub_count` and `view_count` pages
+  - Added the API number present in the estimated data
+- `index.html`
+  - Removed the status column as this was not needed
+- footer
+  - Added icons to navigation - largely broken still
+
+### ➕ Additions
+- images
+  - added `ic_misc_home.svg` for the footer
+  - added banners for future use
+
+### ♻ Deletions
+- NPM / node.js files
+  - These files will make for a more secure backend system which deals with APIs or with server issues
+  - Split `server.ps1` into `local_server.ps1` and `node_server.ps1` to make running the servers easier (both localhost however)
+
+# Commit History
 ## Preview 22
 - Released: `17/07/2022`
 - Description: **Added odometers**
@@ -15,7 +38,6 @@ Only counts from Preview 2 onwards
   - Buttons don't open in a new page - instead links are replaced
     - *(There will be an option to open in a new tab shortly)*
 
-# Commit History
 ## Preview 21
 - Released: `17/07/2022`
 - Description: **Updated footer + new SVGs**

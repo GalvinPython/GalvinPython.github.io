@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+/* Channels Box */
 #channels {
     margin: auto;
     width: 70%;
@@ -7,15 +8,7 @@
     border-radius: 10px;
 }
 
-/* Status */
-.active {
-    color: limegreen;
-} .semi-active {
-    color: yellow;
-} .inactive {
-    color: red;
-}
-
+/* Abbreviations */
 abbr[title] {
     border-bottom: none !important;
     cursor: inherit !important;
@@ -115,12 +108,12 @@ button:disabled {
 
 /* Latest uploads */
 
-#latestUploads {
+#latestUploads, #latestChannelUpload {
     margin: auto;
     width: 70%;
     background-color: #222;
     border-radius: 10px;
-} #latestUploads > small {
+} #latestUploads, #latestChannelUpload > small {
     text-align: center;
     font-style: italic;
 }

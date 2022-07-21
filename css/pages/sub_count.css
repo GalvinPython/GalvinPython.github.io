@@ -8,26 +8,27 @@
 
 #subBox {
     background-color: #222;
+} #subBox > img {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+} #subBox > img:hover {
+    transition-delay: 100ms;
+    transition-duration: 1s;
+    border-radius: 20%;
 }
-#channelBox, #historyBox {
+
+#channelBox {
     background-color: #333;
     text-align: center;
 }
-#subCount, #subChart, #lastYear {
+
+#subCount, #subChart {
     background-color: #111;
 } #subCount > p {
     font-size: 69px;
 }
 
-img {
-    display: block;
-    margin: auto;
-    border-radius: 50%;
-} img:hover {
-    transition-delay: 100ms;
-    transition-duration: 1s;
-    border-radius: 20%;
-}
 
 abbr[title] {
     border-bottom: none !important;
