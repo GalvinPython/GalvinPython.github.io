@@ -1,2 +1,3 @@
-# Shutdown indefinitely
-JackSucksAtStats is shutdown indefinitely following the announcement of mixerno.space shutting down. We used their API to provide data, and since it's shut down, everything will just throw an error, so I've removed all the pages and the site will be back again soon with some major improvements :)
+# Relaunching soon
+**Relaunching this week :)**  
+We'll be relaunching with a new layout and some polishing here and there!
