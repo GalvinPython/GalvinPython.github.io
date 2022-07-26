@@ -1,0 +1,131 @@
+@charset "utf-8";
+
+/* Channels Box */
+#channels {
+    margin: auto;
+    width: 70%;
+    background-color: #222;
+    border-radius: 10px;
+}
+
+/* Abbreviations */
+abbr[title] {
+    border-bottom: none !important;
+    cursor: inherit !important;
+    text-decoration: none !important;
+}
+
+/* Buttons */
+button {
+    transition-duration: 0.4s;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+} button.viewInfo {
+    background-color: #4CAF50; /* Green */
+} button.viewSubCount {
+    background-color: red; /* Red */
+} button.viewViewCount {
+    background-color: blue; /* Blue */
+}
+
+/* Disabled Buttons - (Coming Soon) */
+button.cs:disabled {
+    transition-duration: 0.4s;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+} button.viewInfo.cs:disabled {
+    background-color: #4CAF50;
+} button.viewSubCount.cs:disabled {
+    background-color: red;
+} button.viewViewCount.cs:disabled {
+    background-color: blue;
+}
+
+/* Disabled Buttons */
+button:disabled {
+    cursor: not-allowed;
+    color: #666666;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+} button.viewInfo:disabled {
+    background-color: #3D4A45;
+} button.viewSubCount:disabled {
+    background-color: #99583D;
+} button.viewViewCount:disabled {
+    background-color: #3D9971;
+}
+
+.viewInfo:hover, .viewSubCount:hover, .viewViewCount:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    font-size: larger;
+}
+
+/* --- Overviews --- */
+/* Subscribers overview */
+
+#subCounts {
+    margin: auto;
+    width: 70%;
+    background-color: #222;
+    border-radius: 10px;
+} p.subCountsP {
+    text-align: center;
+} small.subCountsSmall {
+    text-align: center;
+    font-style: italic;
+}
+
+/* Views overview */
+
+#viewCounts {
+    margin: auto;
+    width: 70%;
+    background-color: #222;
+    border-radius: 10px;
+} #viewCounts > p {
+    text-align: center;
+} #viewCounts > small {
+    text-align: center;
+    font-style: italic;
+}
+
+/* Latest uploads */
+
+#latestUploads, #latestChannelUpload {
+    margin: auto;
+    width: 70%;
+    background-color: #222;
+    border-radius: 10px;
+} #latestUploads, #latestChannelUpload > small {
+    text-align: center;
+    font-style: italic;
+}
+
+/* All overviews */
+.estimatedSubs {
+    color: green;
+} .trueAPI {
+    color: red;
+}
+
+/* Better looking images */
+img {
+    border-radius: 10%;
+}
