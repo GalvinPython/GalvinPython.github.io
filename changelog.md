@@ -3,6 +3,14 @@ There's no point in explaining the purpose of this file.
 Only counts from Preview 2 onwards
 
 # Latest Commit
+## Preview 26
+- Released: `26/07/2022`
+- Description: `🔨 Fixed navbar bug`
+
+### 🔨 Modifications
+- Updated dropdowns in the navbar to new URLs
+
+# Commit History
 ## Preview 25
 - Released: `26/07/2022`
 - Description: `🎊 Site relaunch`
@@ -13,7 +21,6 @@ Only counts from Preview 2 onwards
 - changed names of profile pictures
   - Instead of being all the name, they're now abbreviations
 
-# Commit History
 ## Preview 24
 - Released: `25/07/2022`
 - Description: `⏱ Optimisation update`  
