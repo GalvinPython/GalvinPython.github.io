@@ -3,6 +3,15 @@ There's no point in explaining the purpose of this file.
 Only counts from Preview 2 onwards
 
 # Latest Commit
+## Preview 27
+- Released: `29/07/2022`
+- Description: `🎨 Updated footer`
+
+### 🔨 Modifications
+- Styled buttons in footer to fix image placements
+- Added footer with an ID into each HTML document to prevent **Violation - Don't use document.write()** warnings
+ 
+# Commit History
 ## Preview 26
 - Released: `26/07/2022`
 - Description: `🔨 Fixed navbar bug`
@@ -10,7 +19,6 @@ Only counts from Preview 2 onwards
 ### 🔨 Modifications
 - Updated dropdowns in the navbar to new URLs
 
-# Commit History
 ## Preview 25
 - Released: `26/07/2022`
 - Description: `🎊 Site relaunch`

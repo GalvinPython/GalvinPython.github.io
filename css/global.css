@@ -22,39 +22,6 @@ body > *, footer > * {
     margin: 8px;
 }
 
-footer {
-    background-color: #222;
-    border-top: 5px dashed #333;
-} .footerNote {
-    text-align: center;
-    color: #444;
-} a.footerNote {
-    text-align: center;
-}
-
-.footCol {
-    display: flex;
-} .footCol > div {
-    width: 25%;
-    height: 100%;
-} .footCol > h3 {
-    text-align: center;
-}
-
-.footDiv > div > img {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    float: left;
-    width: -moz-fit-content;
-    width: fit-content;
-    height: fit-content;
-    box-shadow: none !important;
-} .footDiv > div > a {
-    float: right;
-    width: 90%;
-}
-
 h1, h2, h3, h4, h5 {
     text-align: center;
 }
@@ -101,6 +68,8 @@ tr:nth-child(even) {
     text-align: center;
     text-decoration: underline;
     font-size: larger;
+} tr:hover {
+    background-color: #333;
 }
 
 /* Links */
@@ -260,4 +229,21 @@ input:checked + .slider:before {
 /* Notices */
 .noticesp {
     color: red !important;
+}
+
+/* SVG images */
+.backGit {
+    background-image: url(/imgs/svg/ic_brand_github.svg);
+} .backHome {
+    background-image: url(/imgs/svg/ic_misc_home.svg);
+} .backHour {
+    background-image: url(/imgs/svg/ic_misc_hourglass.svg);
+} .backInsta {
+    background-image: url(/imgs/svg/ic_social_instagram.svg);
+} .backReddit {
+    background-image: url(/imgs/svg/ic_social_reddit.svg);
+} .backTwit {
+    background-image: url(/imgs/svg/ic_social_twitter.svg);
+} .backYouTube {
+    background-image: url(/imgs/svg/ic_social_youtube.svg);
 }

@@ -1,0 +1,59 @@
+
+footer {
+    background-color: #222;
+    border-top: 5px dashed #333;
+} .footerNote {
+    text-align: center;
+    color: #444;
+} a.footerNote {
+    text-align: center;
+}
+
+.footCol {
+    display: flex;
+} .footCol > div {
+    width: 25%;
+    height: 100%;
+} .footCol > h3 {
+    text-align: center;
+}
+
+.footDiv > div > img {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    float: left;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: fit-content;
+    box-shadow: none !important;
+} .footDiv > div > a {
+    float: right;
+    width: 90%;
+}
+
+.footDiv > button {
+    transition-duration: 0.4s;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #333;
+    width: 90%;
+    margin: auto;
+    margin-top: 5px !important;
+    overflow: hidden;
+}
+
+.footDiv > button em {
+    vertical-align:middle;
+    margin:0 2px;
+    display:inline-block;
+    width:16px;
+    height:16px;
+    margin-right: 10px;
+}

@@ -190,3 +190,7 @@ const fetchDate = () => {
 }
 
 setInterval(getSubData, 4000)
+
+function resetData() {
+    // soon
+}
