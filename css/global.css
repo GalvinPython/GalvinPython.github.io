@@ -63,7 +63,7 @@ td, th {
 
 tr:nth-child(even) {
     background-color: #444;
-    color: #222;
+    color: #111;
 } tr:first-child > th {
     text-align: center;
     text-decoration: underline;
@@ -101,14 +101,15 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    transition-duration: 0.2s;
+    transition-duration: 0.5s;
 }
 
 li {
+    transition-duration: 0.5s;
     float: left;
 }
 
-li a, .dropbtn {
+li a, .dropbtn, .dropbtn {
     display: block;
     color: white;
     text-align: center;
@@ -117,8 +118,8 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: #111;
     transition-duration: 0.5s;
+    background-color: #111;
 }
 
 li.dropdown {
@@ -229,21 +230,4 @@ input:checked + .slider:before {
 /* Notices */
 .noticesp {
     color: red !important;
-}
-
-/* SVG images */
-.backGit {
-    background-image: url(/imgs/svg/ic_brand_github.svg);
-} .backHome {
-    background-image: url(/imgs/svg/ic_misc_home.svg);
-} .backHour {
-    background-image: url(/imgs/svg/ic_misc_hourglass.svg);
-} .backInsta {
-    background-image: url(/imgs/svg/ic_social_instagram.svg);
-} .backReddit {
-    background-image: url(/imgs/svg/ic_social_reddit.svg);
-} .backTwit {
-    background-image: url(/imgs/svg/ic_social_twitter.svg);
-} .backYouTube {
-    background-image: url(/imgs/svg/ic_social_youtube.svg);
 }

@@ -19,6 +19,7 @@ function getAbbr() {
         "jsas",
         "jmw",
         "jsag",
+        "gs",
         "jsac",
         "i",
         "jsae",
@@ -39,6 +40,7 @@ function getId() {
         "UCxLIJccyaRQDeyu6RzUsPuw",
         "UCyktGLVQchOpvKgL7GShDWA",
         "UCd15dSPPT-EhTXekA7_UNAQ",
+        "UC_7K5gOJJ3urQR53ltIck8w",
         "UCUXNOmIdsoyd5fh5TZHHO5Q",
         "UCrZKnWgOaYTTc7sc1KsVXZw",
         "UCqx-my2rOoQuEOHKNNgNppw",
@@ -77,9 +79,10 @@ try {
 }
 console.log(abbr)
 
-if (abbr == "jsal" || abbr == "jsas" || abbr == "jmw" || abbr == "jsag" || abbr == "jsac" || abbr == "i" || abbr == "jsae" || abbr == "jsapup" || abbr == "rickx" || abbr == "tb420" || abbr == "epic" || abbr == "ssoas" || abbr == "ssoa" || abbr == "ejsafc" || abbr == "oldjmw") {
+if (abbr == "jsal" || abbr == "jsas" || abbr == "jmw" || abbr == "jsag" || abbr == "gs" || abbr == "jsac" || abbr == "i" || abbr == "jsae" || abbr == "jsapup" || abbr == "rickx" || abbr == "tb420" || abbr == "epic" || abbr == "ssoas" || abbr == "ssoa" || abbr == "ejsafc" || abbr == "oldjmw") {
     removeElements()
     fetchProfilePicture(abbr)
+    setInterval(getSubData, 4000)
 }
 
 const channelIds = getId();

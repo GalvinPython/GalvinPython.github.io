@@ -4,6 +4,7 @@ function info_jsal(){window.location = '/pages/channel_info?c=jsal'}
 function info_jsas(){window.location = '/pages/channel_info?c=jsas'}
 function info_jmw(){window.location = '/pages/channel_info?c=jmw'}
 function info_jsag(){window.location = '/pages/channel_info?c=jsag'}
+function info_gs(){window.location = '/pages/channel_info?c=gs'}
 function info_tb420(){window.location = '/pages/channel_info?c=tb420'}
 function info_jsapup(){window.location = '/pages/channel_info?c=jsapup'}
 function info_rickx(){window.location = '/pages/channel_info?c=rickx'}
@@ -21,6 +22,7 @@ function sc_jsal(){window.location = '/pages/sub_count?c=jsal'}
 function sc_jsas(){window.location = '/pages/sub_count?c=jsas'}
 function sc_jmw(){window.location = '/pages/sub_count?c=jmw'}
 function sc_jsag(){window.location = '/pages/sub_count?c=jsag'}
+function sc_gs(){window.location = '/pages/sub_count?c=gs'}
 function sc_tb420(){window.location = '/pages/sub_count?c=tb420'}
 function sc_jsapup(){window.location = '/pages/sub_count?c=jsapup'}
 function sc_rickx(){window.location = '/pages/sub_count?c=rickx'}
@@ -38,6 +40,7 @@ function vc_jsal(){window.location = '/pages/view_count?c=jsal'}
 function vc_jsas(){window.location = '/pages/view_count?c=jsas'}
 function vc_jmw(){window.location = '/pages/view_count?c=jmw'}
 function vc_jsag(){window.location = '/pages/view_count?c=jsag'}
+function vc_gs(){window.location = '/pages/view_count?c=gs'}
 function vc_tb420(){window.location = '/pages/view_count?c=tb420'}
 function vc_jsapup(){window.location = '/pages/view_count?c=jsapup'}
 function vc_rickx(){window.location = '/pages/view_count?c=rickx'}
